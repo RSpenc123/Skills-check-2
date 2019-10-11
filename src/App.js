@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './components/dashboard'
+import Form from './components/form'
+import Header from './components/header'
 
 function App() {
   return (
     <div className="App">
-      <header>Shelfie
-      </header>
-      <section className='items'></section>
-      <section className='inputs'></section>
+      <Header/>
+      <Form/>
+      <Dashboard/>
+
     </div>
   );
 }
